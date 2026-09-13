@@ -1,0 +1,39 @@
+{
+  "id": "creation-date-tracker",
+  "title": "Data di Creazione (Calendario di Gioco)",
+  "description": "Aggiunge alla scheda 'Dettagli' di ogni documento (Attori, Oggetti, Scene, Journal, Macro, RollTable, ecc.) un'opzione per impostare e visualizzare una data di creazione, calcolata tramite il calendario del game system attivo (API Calendar di Foundry v13+).",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Claude",
+      "url": "https://claude.com"
+    }
+  ],
+  "esmodules": [
+    "scripts/creation-date-tracker.js"
+  ],
+  "styles": [
+    "styles/creation-date-tracker.css"
+  ],
+  "languages": [
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/it.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/Lertuga/Creation-Date-Tracker",
+  "manifest": "https://raw.githubusercontent.com/Lertuga/Creation-Date-Tracker/main/module.json",
+  "download": "https://github.com/Lertuga/Creation-Date-Tracker/releases/latest/download/creation-date-tracker.zip",
+  "license": "MIT",
+  "readme": "README.md"
+}
