@@ -1,0 +1,22 @@
+{
+  "CDT": {
+    "Legend": "Creation Date",
+    "NotSet": "Not set",
+    "Set": "Set",
+    "Edit": "Edit",
+    "UseNow": "Use current time",
+    "Clear": "Clear",
+    "DialogTitle": "Set the creation date",
+    "Year": "Year",
+    "Month": "Month",
+    "Day": "Day of month",
+    "DayOfYear": "Day of year",
+    "Hour": "Hour",
+    "Minute": "Minute",
+    "Second": "Second",
+    "Save": "Save",
+    "Cancel": "Cancel",
+    "NoCalendarWarning": "No world calendar detected: a rough linear conversion will be used instead.",
+    "ConversionError": "Unable to convert the provided date with the active calendar."
+  }
+}
