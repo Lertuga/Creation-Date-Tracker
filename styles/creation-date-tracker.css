@@ -1,0 +1,80 @@
+/*
+ * Stili isolati per il blocco "Data di creazione".
+ * Usiamo classi tutte proprie (prefisso cdt-) e alcune regole !important
+ * mirate solo al layout, per evitare che le regole generiche di alcuni
+ * game system (es. .form-group di dnd5e, che forza flex-direction:column
+ * e bottoni a piena larghezza) schiaccino il blocco in una colonna stretta.
+ */
+
+.cdt-creation-date-block {
+  display: block !important;
+  margin: 0.5rem 0;
+  padding: 0.35rem 0.6rem 0.5rem;
+  border: 1px solid var(--color-border-light-tertiary, #a8a8a8);
+  border-radius: 4px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  grid-column: 1 / -1;
+  flex-basis: 100%;
+}
+
+.cdt-creation-date-block legend {
+  font-weight: 600;
+  padding: 0 4px;
+  width: auto;
+}
+
+.cdt-row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.cdt-value {
+  font-style: italic;
+  opacity: 0.9;
+  flex: 1 1 auto;
+}
+
+.cdt-buttons {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.35rem;
+  margin-left: auto;
+}
+
+.cdt-buttons button {
+  flex: 0 0 auto !important;
+  width: auto !important;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.cdt-dialog-form .form-group {
+  margin-bottom: 0.5rem;
+}
+
+.cdt-dialog-form label {
+  margin-right: 0.35rem;
+}
+
+.cdt-time-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.cdt-time-row input {
+  width: 4.5rem;
+}
+
+.cdt-dialog-form .notes {
+  font-size: 0.85em;
+  opacity: 0.8;
+}
