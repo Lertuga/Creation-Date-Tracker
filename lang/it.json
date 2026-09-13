@@ -1,0 +1,22 @@
+{
+  "CDT": {
+    "Legend": "Data di creazione",
+    "NotSet": "Non impostata",
+    "Set": "Imposta",
+    "Edit": "Modifica",
+    "UseNow": "Usa istante attuale",
+    "Clear": "Rimuovi",
+    "DialogTitle": "Imposta la data di creazione",
+    "Year": "Anno",
+    "Month": "Mese",
+    "Day": "Giorno del mese",
+    "DayOfYear": "Giorno dell'anno",
+    "Hour": "Ora",
+    "Minute": "Minuto",
+    "Second": "Secondo",
+    "Save": "Salva",
+    "Cancel": "Annulla",
+    "NoCalendarWarning": "Nessun calendario di gioco rilevato: verrà usata una conversione lineare approssimativa.",
+    "ConversionError": "Impossibile convertire la data inserita con il calendario attivo."
+  }
+}
